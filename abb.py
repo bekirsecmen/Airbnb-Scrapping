@@ -2,7 +2,7 @@ from scrapingbee import ScrapingBeeClient
 from bs4 import BeautifulSoup
 import json
 
-client = ScrapingBeeClient(api_key='R42LZ0ZMK7PVREC7235KP3J372IZCC68OF1X2O9BF4U5LPEYCIW1HV01C1WKBNVI7NC4GAL9AJNIW56T')
+client = ScrapingBeeClient(api_key='YOUR_API_KEY')
 
 print("starting ... ")
 response = client.get("https://www.airbnb.com/s/Beyoglu--Istanbul/homes?checkin=2024-05-20&checkout=2024-05-27", 
